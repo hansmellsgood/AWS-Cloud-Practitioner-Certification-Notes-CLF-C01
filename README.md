@@ -1,5 +1,6 @@
 # AWS Cloud Practitioner Certification Notes-CLF-C01
  A repository that I will use to store notes along the way of my studying for the certificate.
+ <br> Scheduling of exams can be done at: https://aws.amazon.com/certification/certified-cloud-practitioner/
 
 
 ## Goal
@@ -14,7 +15,7 @@ skills, and abilities to demonstrate basic knowledge of the AWS platform, includ
 The practice of using a network of remote servers hosed on the internet to store,
 manage and process data, rather than a local server or a personal computer.
 
-##
+
 
 ## Learning Resources:
 https://www.youtube.com/watch?v=SOTamWNgDKc

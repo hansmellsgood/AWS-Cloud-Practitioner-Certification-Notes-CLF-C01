@@ -66,7 +66,7 @@ An edge location is a datacenter owned by a trusted partner of AWS which has a <
 - These location serve requests for CloudFront and Route53.<br>
 Request going to either of these services will be routed to the nearest edge location automatically.<br>
 - <b>S3 Transfer acceleration </b> traffic and API gateway endpoint traffic also use the AWS Edge Network.<br>
-- <b> This allows for low latency</b> no matter where the  end user is grographically located.
+- <b> This allows for low latency</b> no matter where the  end user is geographically located.
 ### 1.5.4 GovCloud (US)
 AWS GovCloud Region allow customers to host sensitive <b>Controlled Unclassified Information</b> and other types of regulated workloads.<br>
 GovClout Regions are only operated by employees who are US citizens.<br>
@@ -79,4 +79,5 @@ They are only accessible to US entities and root account holders who pass a scre
 
 
 ## Learning Resources:
-https://www.youtube.com/watch?v=SOTamWNgDKc
+https://www.youtube.com/watch?v=SOTamWNgDKc <br>
+https://www.youtube.com/watch?v=3hLmDS179YE

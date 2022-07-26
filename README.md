@@ -10,7 +10,7 @@ skills, and abilities to demonstrate basic knowledge of the AWS platform, includ
 - Account security and compliance.
 
 # Domain 1: Cloud Concepts
-## 1.1 What is Cloud Cpmputing?
+## 1.1 What is Cloud Computing?
 The practice of using a network of remote servers hosed on the internet to store, manage and process data, rather than a local server or a personal computer.
 ## 1.2 Six advantages and benefits of Cloud computing
 1. Trade capital expense for variable expense (No upfront cost, Pay on demand)
@@ -28,9 +28,9 @@ Removes the need for your organization to manage the underlying infrastructure. 
 E.g Elastic Beanstalk, Heroku
 ### 1.3.3 Infrastructure as a service (IaaS)
 The basic building blocks for cloud IT. Provides access to networking features, computers and data storage space.<br>
-E.g AWS, GCP, Microsoft Azure 
+E.g AWS, GCP, Microsoft Azure
 ## 1.4 Cloud Computing Deployment Models
-### 1.4.1 Cloud: Fully utilizying cloud computing
+### 1.4.1 Cloud: Fully utilizing cloud computing
 - Well suited for startups, low cost
 - SaaS offerings, nature of applications are not that complicated (Dropbox)
 - New projects and companies, no red tape can design to be 100% on cloud.
@@ -40,8 +40,8 @@ E.g AWS, GCP, Microsoft Azure
 - Large professional service providers (Deloitte)
 ### 1.4.3 On-Premise: Deploying on-premises using virtualization and resource management tools, is sometimes called "private cloud"
 - Public Sector (Government)
-- Super sensitve data (Hospitals)
-- Larget enterprise with heavy regulations (Insurance)
+- Super sensitive data (Hospitals)
+- Largest enterprise with heavy regulations (Insurance)
 ## 1.5 AWS Global Infrastructure
 Serves over a million active customers in more than 190 countries <br>
 Steadily expanding global infrastructure to help customers achieve lower latency and higher throughput
@@ -54,7 +54,7 @@ Every region is physically isolated from and independent of every other region i
 - New services almost always become available first on US-EAST.
 - Not all services are available in all regions.
 - US-EAST-1 is the region to see billing information.
-### 1.5.2 Avaliability Zones
+### 1.5.2 Availability Zones
 An AZ is a datacenter owned and operated by AWS.<br>
 - Each region has at least 2 AZS.
 - AZs are represented by a Region code, followed by a letter identifier<br>

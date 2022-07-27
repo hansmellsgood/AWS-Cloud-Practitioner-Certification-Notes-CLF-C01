@@ -10,7 +10,7 @@ skills, and abilities to demonstrate basic knowledge of the AWS platform, includ
 - Account security and compliance.
 
 # Domain 1: Cloud Concepts
-## 1.1 What is Cloud Cpmputing?
+## 1.1 What is Cloud Computing?
 The practice of using a network of remote servers hosed on the internet to store, manage and process data, rather than a local server or a personal computer.
 ## 1.2 Six advantages and benefits of Cloud computing
 1. Trade capital expense for variable expense (No upfront cost, Pay on demand)
@@ -28,7 +28,7 @@ Removes the need for your organization to manage the underlying infrastructure. 
 E.g Elastic Beanstalk, Heroku
 ### 1.3.3 Infrastructure as a service (IaaS)
 The basic building blocks for cloud IT. Provides access to networking features, computers and data storage space.<br>
-E.g AWS, GCP, Microsoft Azure 
+E.g AWS, GCP, Microsoft Azure
 ## 1.4 Cloud Computing Deployment Models
 ### 1.4.1 Cloud
 Run all parts of the application in the cloud.
@@ -48,8 +48,8 @@ In a hybrid deployment, cloud-based resources are connected to on-premises infra
 Deploy resources by using virtualization and resource management tools.
 Increase resource utilization by using application management and virtualization technologies. It is also known as a private cloud deployment.
 - Public Sector (Government)
-- Super sensitve data (Hospitals)
-- Larget enterprise with heavy regulations (Insurance)
+- Super sensitive data (Hospitals)
+- Largest enterprise with heavy regulations (Insurance)
 ## 1.5 AWS Global Infrastructure
 Serves over a million active customers in more than 190 countries <br>
 Steadily expanding global infrastructure to help customers achieve lower latency and higher throughput
@@ -62,7 +62,7 @@ Every region is physically isolated from and independent of every other region i
 - New services almost always become available first on US-EAST.
 - Not all services are available in all regions.
 - US-EAST-1 is the region to see billing information.
-### 1.5.2 Avaliability Zones
+### 1.5.2 Availability Zones
 An AZ is a datacenter owned and operated by AWS.<br>
 - Each region has at least 2 AZS.
 - AZs are represented by a Region code, followed by a letter identifier<br>
@@ -74,7 +74,7 @@ An edge location is a datacenter owned by a trusted partner of AWS which has a <
 - These location serve requests for CloudFront and Route53.<br>
 Request going to either of these services will be routed to the nearest edge location automatically.<br>
 - <b>S3 Transfer acceleration </b> traffic and API gateway endpoint traffic also use the AWS Edge Network.<br>
-- <b> This allows for low latency</b> no matter where the  end user is grographically located.
+- <b> This allows for low latency</b> no matter where the  end user is geographically located.
 ### 1.5.4 GovCloud (US)
 AWS GovCloud Region allow customers to host sensitive <b>Controlled Unclassified Information</b> and other types of regulated workloads.<br>
 GovClout Regions are only operated by employees who are US citizens.<br>

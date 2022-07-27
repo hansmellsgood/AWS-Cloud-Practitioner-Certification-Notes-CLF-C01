@@ -30,15 +30,23 @@ E.g Elastic Beanstalk, Heroku
 The basic building blocks for cloud IT. Provides access to networking features, computers and data storage space.<br>
 E.g AWS, GCP, Microsoft Azure 
 ## 1.4 Cloud Computing Deployment Models
-### 1.4.1 Cloud: Fully utilizying cloud computing
+### 1.4.1 Cloud
+Run all parts of the application in the cloud.
+Migrate existing applications to the cloud.
+Design and build new applications in the cloud.
 - Well suited for startups, low cost
 - SaaS offerings, nature of applications are not that complicated (Dropbox)
 - New projects and companies, no red tape can design to be 100% on cloud.
-### 1.4.2 Hybrid: Use both  Cloud and On-Premise
+### 1.4.2 Hybrid:
+Connect cloud-based resources to on-premises infrastructure.
+Integrate cloud-based resources with legacy IT applications.
+In a hybrid deployment, cloud-based resources are connected to on-premises infrastructure.
 - Banks
 - Fintech, Investment management
 - Large professional service providers (Deloitte)
-### 1.4.3 On-Premise: Deploying on-premises using virtualization and resource management tools, is sometimes called "private cloud"
+### 1.4.3 On-Premise: 
+Deploy resources by using virtualization and resource management tools.
+Increase resource utilization by using application management and virtualization technologies. It is also known as a private cloud deployment.
 - Public Sector (Government)
 - Super sensitve data (Hospitals)
 - Larget enterprise with heavy regulations (Insurance)

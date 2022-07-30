@@ -87,4 +87,5 @@ They are only accessible to US entities and root account holders who pass a scre
 
 
 ## Learning Resources:
-https://www.youtube.com/watch?v=SOTamWNgDKc
+https://www.youtube.com/watch?v=SOTamWNgDKc <br>
+https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/

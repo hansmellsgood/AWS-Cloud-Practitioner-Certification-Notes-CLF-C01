@@ -82,6 +82,19 @@ They are only accessible to US entities and root account holders who pass a scre
 # Domain 2:  Security and Compliance (25%)
 
 # Domain 3: Technology (33%)
+## 3.1 Amazon Elastic Compute Cloud (Amazon EC2)
+Amazon Elastic Compute Cloud (Amazon EC2) provides secure, resizable compute capacity in the cloud as Amazon EC2 instances. <br>
+Characteristics:
+- You can provision and launch an Amazon EC2 instance within minutes.
+- You can stop using it when you have finished running a workload.
+- You pay only for the compute time you use when an instance is running, not when it is stopped or terminated.
+- You can save costs by paying only for server capacity that you need or want.
+### 3.1.1 Amazon EC2 instance types
+- General purpose instances (Balances compute, memory, and networking resources)
+- Compute optimized instances (Offers high-performance processors)
+- Memory optimized instances (Ideal for high-performance databases)
+- Accelerated computing instances (ideal graphics applications, game streaming, and application streaming.)
+- Storage optimized instances (Suitable for data warehousing applications)
 
 # Domain 4: Billing and Pricing (16%)
 

@@ -101,6 +101,35 @@ Characteristics:
 - Reserved Instances (billing discount applied to the use of On-Demand Instances)
 - Spot Instances (use unused Amazon EC2 computing capacity and offer you cost savings at up to 90% off of On-Demand prices.)
 - Dedicated Hosts (physical servers with Amazon EC2 instance capacity that is fully dedicated to individual use.)
+### 3.1.3 Amazon EC2 Auto Scaling
+Amazon EC2 Auto Scaling enables you to automatically add or remove Amazon EC2 instances in response to changing application demand.
+- Dynamic scaling responds to changing demand. 
+- Predictive scaling automatically schedules the right number of Amazon EC2 instances based on predicted demand.
+#### Steps to configuring Auto Scaling Group:
+1. Set the minimum number of Amazon EC2 instances. The minimum capacity is the number of Amazon EC2 instances that launch immediately after you have created the Auto Scaling group.
+2. Set the desired capacity of Amazon EC2 instances
+3. Set the maximum number of Amazon EC2 instances.
+## 3.2 Elastic Load Balancing
+Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances.
+- A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group.
+- This means that as you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first.
+- Then, the requests spread across multiple resources that will handle them.
+
+E.g. if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it.
+## 3.3 Messaging and Queuing
+Monolithic application: Application with tightly coupled components.
+- These components might include databases, servers, the user interface,
+- If a single component fails, other components fail, and possibly the entire application fails.
+
+Microservices approach: application components are loosely coupled.
+- If a single component fails, the other components continue to work because they are communicating with each other.
+- The loose coupling prevents the entire application from failing.
+## 3.3.1 Amazon Simple Notification Service (Amazon SNS)
+Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options. 
+## 3.3.2 Amazon Simple Queue Service (Amazon SQS)
+Amazon Simple Queue Service (Amazon SQS) is a message queuing service.
+- Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available.
+- In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
 # Domain 4: Billing and Pricing (16%)
 
 

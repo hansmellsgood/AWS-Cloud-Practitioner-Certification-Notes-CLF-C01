@@ -95,7 +95,12 @@ Characteristics:
 - Memory optimized instances (Ideal for high-performance databases)
 - Accelerated computing instances (ideal graphics applications, game streaming, and application streaming.)
 - Storage optimized instances (Suitable for data warehousing applications)
-
+### 3.1.2 Amazon EC2 pricing
+- On-Demand (ideal for short-term, irregular workloads that cannot be interrupted.)
+- Amazon EC2 Savings Plans (reduce your compute costs by committing to a consistent amount of compute usage for a 1-year or 3-year term)
+- Reserved Instances (billing discount applied to the use of On-Demand Instances)
+- Spot Instances (use unused Amazon EC2 computing capacity and offer you cost savings at up to 90% off of On-Demand prices.)
+- Dedicated Hosts (physical servers with Amazon EC2 instance capacity that is fully dedicated to individual use.)
 # Domain 4: Billing and Pricing (16%)
 
 

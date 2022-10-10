@@ -130,6 +130,20 @@ Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. 
 Amazon Simple Queue Service (Amazon SQS) is a message queuing service.
 - Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available.
 - In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
+## 3.4 AWS Lambda
+AWS Lambda is a service that lets you run code without needing to provision or manage servers.
+
+- Pay only for the compute time that you consume. Charges apply only when your code is running. You can also run code for virtually any type of application or backend service, all with zero administration.  
+
+How lambda works:
+1. Upload code to lambda
+2. Set code to trigger from an event source, such as AWS services, mobile applications, or HTTP endpoints.
+3. Lambda runs code only when triggered.
+4. Pay only for the compute time that you use.
+
+A simple Lambda function might involve automatically resizing uploaded images to the AWS Cloud. In this case, the function triggers when uploading a new image. Pay only for the compute time that you use when uploading new images.
+
+
 # Domain 4: Billing and Pricing (16%)
 
 

@@ -142,7 +142,17 @@ How lambda works:
 4. Pay only for the compute time that you use.
 
 A simple Lambda function might involve automatically resizing uploaded images to the AWS Cloud. In this case, the function triggers when uploading a new image. Pay only for the compute time that you use when uploading new images.
-
+## 3.5 Containers
+Containers provide you with a standard way to package your application's code and dependencies into a single object. You can also use containers for processes and workflows in which there are essential requirements for security, reliability, and scalability.
+## 3.5.1 Amazon Elastic Container Service (Amazon ECS)
+Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS. 
+## 3.5.2 Amazon Elastic Kubernetes Service (Amazon EKS)
+Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed service that you can use to run Kubernetes on AWS.
+## 3.5.3 AWS Fargate
+AWS Fargate is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS.
+- Do not need to provision or manage servers
+- Manages your server infrastructure for you
+- Focus more on innovating and developing your applications, and you pay only for the resources that are required to run your containers. 
 
 # Domain 4: Billing and Pricing (16%)
 
